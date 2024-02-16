@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 600px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: blue;
+    padding: 25px;
+    color: #fff;
+}
+
+table{
+    width: 100%;
+}
+
+.context{
+    width: 100vw;
+    height: 100px;
+    padding: 15px;
+    position: fixed;
+    top: -500vh;
+    left: 0;
+    transition: .5s;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 10px -2px gray;
+}
+.contextActive{
+    left: 0px;
+}
+
+/* Vazifa 2 */
+
+.round{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+    border-radius: 50%;
+}
